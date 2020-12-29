@@ -120,3 +120,16 @@
     flex-direction: column;
   }
 }
+
+.menuSB {
+  background-color: #F9F5F5;
+  color: #0C621F;
+  font-family: 'Pacifico', cursive;
+  font-size: 28px;
+}
+
+.titleStar {
+  color: #ffff;
+  font-family: 'Patua One', cursive;
+  font-size: 48px;
+}
