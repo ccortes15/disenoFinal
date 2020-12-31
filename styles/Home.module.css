@@ -1,9 +1,18 @@
 .header {
   position: fixed;
+  z-index: 1;
   width: 100%;
   background-color: #00704a;
   padding: 5px 0 0 0;
   height: auto;
+}
+
+.cardStyle {
+  width: 25%;
+}
+
+.rowTitle {
+  border-bottom: 2px solid #035238;
 }
 
 .collapseStyle {
@@ -17,7 +26,7 @@
 }
 
 .container {
-  margin-top: 10%;
+  margin-top: 137px;
 }
 
 .menuStyle {
@@ -33,6 +42,7 @@
 }
 
 .imgHome {
+  height: 600px;
   width: 100%;
 }
 
@@ -40,4 +50,8 @@
   color: #ffff;
   font-family: 'Playfair Display', serif;
   font-size: 78px;
+}
+
+.tagDrop {
+  color: #00704a;
 }
