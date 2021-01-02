@@ -42,7 +42,7 @@
 }
 
 .imgHome {
-  height: 600px;
+  height: 700px;
   width: 100%;
 }
 
@@ -54,4 +54,12 @@
 
 .tagDrop {
   color: #00704a;
+}
+
+.fontTitleCafe {
+  font-family: 'Playfair Display', serif;
+}
+
+.fontText {
+  font-family: 'Merriweather', serif;
 }

@@ -1,7 +1,6 @@
-import { Carousel } from 'antd';
 import Head from 'next/head'
 import LayoutDesign from '../../components/LayoutDesign';
-import styles from '../../styles/Home.module.css';
+import Tiendas from '../../components/tiendas/Tiendas';
 
 export default function TiendasContent() {
   return (
@@ -12,7 +11,7 @@ export default function TiendasContent() {
       </Head>
 
       <LayoutDesign>
-        Tiendas
+        <Tiendas />
       </LayoutDesign>
     </div>
   )

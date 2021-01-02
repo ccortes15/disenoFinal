@@ -2,6 +2,7 @@ import { Carousel } from 'antd';
 import Head from 'next/head'
 import LayoutDesign from '../../components/LayoutDesign';
 import styles from '../../styles/Home.module.css';
+import About from '../../components/about/About';
 
 export default function AboutContent() {
   return (
@@ -12,7 +13,7 @@ export default function AboutContent() {
       </Head>
 
       <LayoutDesign>
-        About us
+        <About />
       </LayoutDesign>
     </div>
   )

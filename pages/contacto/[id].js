@@ -1,5 +1,6 @@
 import { Carousel } from 'antd';
 import Head from 'next/head'
+import Contacto from '../../components/contact/Contacto';
 import LayoutDesign from '../../components/LayoutDesign';
 import styles from '../../styles/Home.module.css';
 
@@ -12,7 +13,8 @@ export default function ContactoContent() {
       </Head>
 
       <LayoutDesign>
-        Contacto
+        <img src="/contacto.jpg" className={styles.imgHome} />
+        <Contacto />
       </LayoutDesign>
     </div>
   )

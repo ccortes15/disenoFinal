@@ -58,7 +58,7 @@ export default function FooterContent() {
                 <Row justify="center">
                     <Col>
                         <Space align="center">
-                            <div>STARBUCKS</div>
+                            <strong>STARBUCKS</strong>
                         </Space>
                     </Col>
                 </Row>

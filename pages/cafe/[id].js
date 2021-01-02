@@ -58,7 +58,7 @@ export default function CafeContent() {
             </Head>
 
             <LayoutDesign>
-                <Card title={<Title>Café</Title>} bordered={false}>
+                <Card title={<Title className={styles.fontText}>Café</Title>} bordered={false}>
                     {gridItems.map((item, index) => (
                         <Card.Grid key={index} className={styles.cardStyle} hoverable={false}>
                             <Card
@@ -67,6 +67,7 @@ export default function CafeContent() {
                                 cover={item.cover}
                             >
                                 <Meta
+                                    className={styles.fontText}
                                     title={item.title}
                                     description={item.description}
                                     style={{ paddingTop: 10 }}
